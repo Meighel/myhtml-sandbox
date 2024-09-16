@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+
+        <style>
+            * {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                padding: 5px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                border: 1px solid #000000;
+                padding: 8px;
+            }
+
+            td:hover {
+                background-color: aqua;
+            }
+
+            th {
+                background-color: #000000;
+                border: 3px solid #000000;
+                color: azure;
+            }
+
+            tr:nth-child(even) {
+                background-color: rgb(213, 208, 208);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>HTML Event Table</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Event Details</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tech Innovators Conference 2024</td>
+                    <td>A gathering of leading tech experts to discuss innovation trends.</td>
+                    <td style="text-align: center;">March 15, 2024</td>
+                    <td>San Francisco, CA, USA</td>
+                </tr>
+                <tr>
+                    <td>Global Music Festival</td>
+                    <td>An international festival celebrating diverse music genres.</td>
+                    <td style="text-align: center;">July 22-24, 2024</td>
+                    <td>Berlin, Germany</td>
+                </tr>
+                <tr>
+                    <td>Sustainable Living Expo</td>
+                    <td>Explore the latest sustainable living products and innovations.</td>
+                    <td style="text-align: center;">April 10-12, 2024</td>
+                    <td>Sydney, Australia</td>
+                </tr>
+                <tr>
+                    <td>International Film Awards</td>
+                    <td>A prestigious award ceremony honoring the best in film.</td>
+                    <td style="text-align: center;">November 5, 2024</td>
+                    <td>Cannes, France</td>
+                </tr>
+                <tr>
+                    <td>Art and Design Fair</td>
+                    <td>An exhibition of modern art and innovative design concepts.</td>
+                    <td style="text-align: center;">September 18-20, 2024</td>
+                    <td>New York, NY, USA</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
