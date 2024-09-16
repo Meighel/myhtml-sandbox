@@ -82,7 +82,7 @@
             </div>
             <div class="form-group">
                 <label for="middle_name">Middle Name:</label>
-                <input type="text" id="middle_name">
+                <input type="text" id="middle_name" required>
             </div>
             <div class="form-group">
                 <label for="birthdate">Birthdate:</label>
@@ -107,11 +107,8 @@
 
 
     <script>
-
-        const form - documnent.getElementById('registration-form');
-
-        form.addEventListener('submit', function(event) {
-             event,preventDefault();
+            document.getElementById("registration-form").addEventListener("submit", function(event) {
+                event.preventDefault();
 
             const lastName = document.getElementById('last_name').value;
             const firstName = document.getElementById('first_name').value;
